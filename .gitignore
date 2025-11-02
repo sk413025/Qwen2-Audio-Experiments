@@ -1,0 +1,33 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# PyTorch
+*.pt
+*.pth
+
+# Data files
+*.npy
+*.wav
+*.mp3
+*.flac
+
+# Training artifacts
+training_data/
+checkpoint_*/
+logs/
+runs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
