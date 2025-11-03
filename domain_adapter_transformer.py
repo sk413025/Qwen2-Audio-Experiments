@@ -77,12 +77,18 @@ class TransformerDomainAdapter(nn.Module):
         self.input_dim = input_dim
         self.num_layers = num_layers
 
-        # 位置編碼（重要！音頻是時序數據）
-        # 類似於序列插入後，每個位置都有位置信息
-        self.pos_encoding = nn.Parameter(
-            torch.zeros(1, max_seq_len, input_dim)
-        )
-        nn.init.normal_(self.pos_encoding, std=0.02)
+        # ⚠️ 注意：不需要額外的位置編碼！
+        # 原因：audio_tower (Whisper) 已經在內部使用了 sinusoidal position encoding
+        # 輸出的特徵 [batch, seq_len, 1280] 已經是位置感知的（position-aware）
+        #
+        # 我們的目標是 domain adaptation（調整 LDV → 麥克風特徵），不是重新編碼位置
+        # Transformer 的 self-attention 會自動利用特徵中已有的位置信息
+        #
+        # 移除：self.pos_encoding = nn.Parameter(...)
+        # 這樣可以：
+        #   1. 減少約 3.84M 參數（3000 × 1280）
+        #   2. 避免位置信息冗餘和混淆
+        #   3. 更符合 domain adaptation 的本質
 
         # Transformer Encoder Layers
         encoder_layer = nn.TransformerEncoderLayer(
@@ -137,16 +143,18 @@ class TransformerDomainAdapter(nn.Module):
                             調整後的特徵
 
         流程類比序列插入：
-        1. 就像文字 tokens 有位置編碼，音頻特徵也需要位置信息
+        1. audio_features 已經包含位置信息（來自 Whisper 的 sinusoidal encoding）
         2. Self-Attention 讓每個時間步關注其他時間步（類似於 attention 讓音頻 embeddings 互相關聯）
-        3. 學習特徵調整，但保持維度不變
+        3. 學習特徵調整（LDV → 麥克風風格），但保持維度不變
         """
         batch_size, seq_len, _ = audio_features.shape
 
-        # 1. 添加位置編碼
-        # 類似於序列插入後，每個位置都有清晰的位置信息
-        pos_enc = self.pos_encoding[:, :seq_len, :]
-        features_with_pos = audio_features + pos_enc
+        # 1. 直接使用 audio_features（已包含位置信息）
+        # 不需要添加額外的位置編碼，因為：
+        # - Whisper encoder 已經添加了 sinusoidal position encoding
+        # - 這些特徵已經是位置感知的（position-aware）
+        # - Transformer 的 self-attention 會自動利用這些位置信息
+        features_to_transform = audio_features
 
         # 2. 準備 attention mask（如果有）
         # PyTorch Transformer 期望 mask 格式：[seq_len, seq_len]
@@ -157,13 +165,16 @@ class TransformerDomainAdapter(nn.Module):
         else:
             key_padding_mask = None
 
-        # 3. 通過 Transformer
+        # 3. 通過 Transformer（關鍵步驟！）
         # Self-Attention 讓模型學習：
-        # - 哪些時間步需要參考其他時間步
-        # - 如何調整特徵分佈
-        # - LDV 和麥克風特徵的差異模式
+        # - 哪些時間步需要參考其他時間步（利用已有的位置信息）
+        # - 如何調整特徵分佈（LDV → 麥克風風格）
+        # - 捕捉 LDV 和麥克風特徵的差異模式
+        #
+        # 注意：Transformer 會自動利用特徵中已有的位置信息
+        # 不需要額外的位置編碼，self-attention 就能理解時序關係
         transformed = self.transformer(
-            features_with_pos,
+            features_to_transform,
             src_key_padding_mask=key_padding_mask
         )
 
