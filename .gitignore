@@ -18,8 +18,25 @@ __pycache__/
 # Training artifacts
 training_data/
 checkpoint_*/
+checkpoints/*.pt
+checkpoints/**/*.pt
 logs/
 runs/
+
+# 保留實驗結果檔案
+!checkpoints/**/training_history.json
+!checkpoints/**/training_history.png
+
+# Datasets (保留 metadata，排除音頻檔案)
+multi_speaker_data/**/*.npy
+multi_speaker_data/**/*.wav
+spatial_audio_data/**/*.npy
+spatial_audio_data/**/*.wav
+
+# 保留 metadata
+!multi_speaker_data/**/metadata.json
+!spatial_audio_data/**/metadata.json
+!spatial_audio_data/README.md
 
 # IDE
 .vscode/

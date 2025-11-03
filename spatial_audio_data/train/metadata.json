@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "train_0000",
+    "left_audio": "left/train_0000.npy",
+    "right_audio": "right/train_0000.npy",
+    "mono_audio": "mono/train_0000.npy",
+    "angle": -22.58277860747475,
+    "audio_type": "music",
+    "audio_description": "鋼琴演奏",
+    "direction_description": "左側前方大約 23 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到鋼琴演奏，方向在左側前方大約 23 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0001",
+    "left_audio": "left/train_0001.npy",
+    "right_audio": "right/train_0001.npy",
+    "mono_audio": "mono/train_0001.npy",
+    "angle": 81.12857515378491,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "右側偏側方大約 81 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "這是男性說話聲，來自右側偏側方大約 81 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0002",
+    "left_audio": "left/train_0002.npy",
+    "right_audio": "right/train_0002.npy",
+    "mono_audio": "mono/train_0002.npy",
+    "angle": 41.75890952605292,
+    "audio_type": "environmental",
+    "audio_description": "風聲",
+    "direction_description": "右側前方大約 42 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "這是風聲，來自右側前方大約 42 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0003",
+    "left_audio": "left/train_0003.npy",
+    "right_audio": "right/train_0003.npy",
+    "mono_audio": "mono/train_0003.npy",
+    "angle": -55.81553476542141,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "左側大約 56 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是男性說話聲，聲源位於左側大約 56 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0004",
+    "left_audio": "left/train_0004.npy",
+    "right_audio": "right/train_0004.npy",
+    "mono_audio": "mono/train_0004.npy",
+    "angle": 62.06760977197035,
+    "audio_type": "music",
+    "audio_description": "音樂播放",
+    "direction_description": "右側大約 62 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是音樂播放，聲源位於右側大約 62 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0005",
+    "left_audio": "left/train_0005.npy",
+    "right_audio": "right/train_0005.npy",
+    "mono_audio": "mono/train_0005.npy",
+    "angle": -19.69632140924388,
+    "audio_type": "environmental",
+    "audio_description": "雨聲",
+    "direction_description": "左側前方大約 20 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是雨聲。從左右聲道的差異來看，聲源位於左側前方大約 20 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0006",
+    "left_audio": "left/train_0006.npy",
+    "right_audio": "right/train_0006.npy",
+    "mono_audio": "mono/train_0006.npy",
+    "angle": -19.06702176680939,
+    "audio_type": "music",
+    "audio_description": "吉他彈奏",
+    "direction_description": "左側前方大約 19 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是吉他彈奏，聲源位於左側前方大約 19 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0007",
+    "left_audio": "left/train_0007.npy",
+    "right_audio": "right/train_0007.npy",
+    "mono_audio": "mono/train_0007.npy",
+    "angle": -61.90560238613119,
+    "audio_type": "environmental",
+    "audio_description": "雨聲",
+    "direction_description": "左側大約 62 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到雨聲，方向在左側大約 62 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0008",
+    "left_audio": "left/train_0008.npy",
+    "right_audio": "right/train_0008.npy",
+    "mono_audio": "mono/train_0008.npy",
+    "angle": 27.024420539929324,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "右側前方大約 27 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這是男性說話聲，來自右側前方大約 27 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0009",
+    "left_audio": "left/train_0009.npy",
+    "right_audio": "right/train_0009.npy",
+    "mono_audio": "mono/train_0009.npy",
+    "angle": -9.974636452515497,
+    "audio_type": "speech",
+    "audio_description": "女性說話聲",
+    "direction_description": "左側偏前方大約 10 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到女性說話聲，方向在左側偏前方大約 10 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0010",
+    "left_audio": "left/train_0010.npy",
+    "right_audio": "right/train_0010.npy",
+    "mono_audio": "mono/train_0010.npy",
+    "angle": 13.501503671367985,
+    "audio_type": "environmental",
+    "audio_description": "鳥叫聲",
+    "direction_description": "右側偏前方大約 14 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這是鳥叫聲，來自右側偏前方大約 14 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0011",
+    "left_audio": "left/train_0011.npy",
+    "right_audio": "right/train_0011.npy",
+    "mono_audio": "mono/train_0011.npy",
+    "angle": 3.390326749665533,
+    "audio_type": "environmental",
+    "audio_description": "雨聲",
+    "direction_description": "正前方",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是雨聲。從左右聲道的差異來看，聲源位於正前方。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0012",
+    "left_audio": "left/train_0012.npy",
+    "right_audio": "right/train_0012.npy",
+    "mono_audio": "mono/train_0012.npy",
+    "angle": -31.849702540002212,
+    "audio_type": "speech",
+    "audio_description": "對話聲",
+    "direction_description": "左側前方大約 32 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到對話聲，方向在左側前方大約 32 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0013",
+    "left_audio": "left/train_0013.npy",
+    "right_audio": "right/train_0013.npy",
+    "mono_audio": "mono/train_0013.npy",
+    "angle": 50.51881813677613,
+    "audio_type": "music",
+    "audio_description": "鋼琴演奏",
+    "direction_description": "右側大約 51 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這是鋼琴演奏，來自右側大約 51 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0014",
+    "left_audio": "left/train_0014.npy",
+    "right_audio": "right/train_0014.npy",
+    "mono_audio": "mono/train_0014.npy",
+    "angle": -34.54305115140221,
+    "audio_type": "environmental",
+    "audio_description": "水流聲",
+    "direction_description": "左側前方大約 35 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這是水流聲，來自左側前方大約 35 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0015",
+    "left_audio": "left/train_0015.npy",
+    "right_audio": "right/train_0015.npy",
+    "mono_audio": "mono/train_0015.npy",
+    "angle": 30.21300936120454,
+    "audio_type": "environmental",
+    "audio_description": "水流聲",
+    "direction_description": "右側前方大約 30 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是水流聲。從左右聲道的差異來看，聲源位於右側前方大約 30 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0016",
+    "left_audio": "left/train_0016.npy",
+    "right_audio": "right/train_0016.npy",
+    "mono_audio": "mono/train_0016.npy",
+    "angle": 31.65066959720471,
+    "audio_type": "speech",
+    "audio_description": "女性說話聲",
+    "direction_description": "右側前方大約 32 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是女性說話聲，聲源位於右側前方大約 32 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0017",
+    "left_audio": "left/train_0017.npy",
+    "right_audio": "right/train_0017.npy",
+    "mono_audio": "mono/train_0017.npy",
+    "angle": -9.171141501522555,
+    "audio_type": "speech",
+    "audio_description": "女性說話聲",
+    "direction_description": "左側偏前方大約 9 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到女性說話聲，方向在左側偏前方大約 9 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0018",
+    "left_audio": "left/train_0018.npy",
+    "right_audio": "right/train_0018.npy",
+    "mono_audio": "mono/train_0018.npy",
+    "angle": -78.94921942637284,
+    "audio_type": "environmental",
+    "audio_description": "風聲",
+    "direction_description": "左側偏側方大約 79 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是風聲，聲源位於左側偏側方大約 79 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0019",
+    "left_audio": "left/train_0019.npy",
+    "right_audio": "right/train_0019.npy",
+    "mono_audio": "mono/train_0019.npy",
+    "angle": -81.74371522737718,
+    "audio_type": "speech",
+    "audio_description": "女性說話聲",
+    "direction_description": "左側偏側方大約 82 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到女性說話聲，方向在左側偏側方大約 82 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0020",
+    "left_audio": "left/train_0020.npy",
+    "right_audio": "right/train_0020.npy",
+    "mono_audio": "mono/train_0020.npy",
+    "angle": -19.369258011091105,
+    "audio_type": "environmental",
+    "audio_description": "水流聲",
+    "direction_description": "左側前方大約 19 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這是水流聲，來自左側前方大約 19 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0021",
+    "left_audio": "left/train_0021.npy",
+    "right_audio": "right/train_0021.npy",
+    "mono_audio": "mono/train_0021.npy",
+    "angle": -15.38202660296102,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "左側前方大約 15 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是男性說話聲。從左右聲道的差異來看，聲源位於左側前方大約 15 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0022",
+    "left_audio": "left/train_0022.npy",
+    "right_audio": "right/train_0022.npy",
+    "mono_audio": "mono/train_0022.npy",
+    "angle": -67.37129506800787,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "左側大約 67 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到男性說話聲，方向在左側大約 67 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0023",
+    "left_audio": "left/train_0023.npy",
+    "right_audio": "right/train_0023.npy",
+    "mono_audio": "mono/train_0023.npy",
+    "angle": -12.737849252336048,
+    "audio_type": "speech",
+    "audio_description": "對話聲",
+    "direction_description": "左側偏前方大約 13 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是對話聲。從左右聲道的差異來看，聲源位於左側偏前方大約 13 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0024",
+    "left_audio": "left/train_0024.npy",
+    "right_audio": "right/train_0024.npy",
+    "mono_audio": "mono/train_0024.npy",
+    "angle": 28.664085924384125,
+    "audio_type": "environmental",
+    "audio_description": "雨聲",
+    "direction_description": "右側前方大約 29 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到雨聲，方向在右側前方大約 29 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0025",
+    "left_audio": "left/train_0025.npy",
+    "right_audio": "right/train_0025.npy",
+    "mono_audio": "mono/train_0025.npy",
+    "angle": 74.70919526560448,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "右側大約 75 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是男性說話聲。從左右聲道的差異來看，聲源位於右側大約 75 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0026",
+    "left_audio": "left/train_0026.npy",
+    "right_audio": "right/train_0026.npy",
+    "mono_audio": "mono/train_0026.npy",
+    "angle": -77.16735247786434,
+    "audio_type": "environmental",
+    "audio_description": "雨聲",
+    "direction_description": "左側偏側方大約 77 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是雨聲，聲源位於左側偏側方大約 77 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0027",
+    "left_audio": "left/train_0027.npy",
+    "right_audio": "right/train_0027.npy",
+    "mono_audio": "mono/train_0027.npy",
+    "angle": 79.39393534378809,
+    "audio_type": "speech",
+    "audio_description": "對話聲",
+    "direction_description": "右側偏側方大約 79 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "這是對話聲，來自右側偏側方大約 79 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0028",
+    "left_audio": "left/train_0028.npy",
+    "right_audio": "right/train_0028.npy",
+    "mono_audio": "mono/train_0028.npy",
+    "angle": -12.701853099203149,
+    "audio_type": "environmental",
+    "audio_description": "風聲",
+    "direction_description": "左側偏前方大約 13 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是風聲，聲源位於左側偏前方大約 13 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0029",
+    "left_audio": "left/train_0029.npy",
+    "right_audio": "right/train_0029.npy",
+    "mono_audio": "mono/train_0029.npy",
+    "angle": -71.14704251641481,
+    "audio_type": "music",
+    "audio_description": "鋼琴演奏",
+    "direction_description": "左側大約 71 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "這是鋼琴演奏，來自左側大約 71 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0030",
+    "left_audio": "left/train_0030.npy",
+    "right_audio": "right/train_0030.npy",
+    "mono_audio": "mono/train_0030.npy",
+    "angle": 3.088094180972192,
+    "audio_type": "music",
+    "audio_description": "吉他彈奏",
+    "direction_description": "正前方",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到吉他彈奏，方向在正前方。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0031",
+    "left_audio": "left/train_0031.npy",
+    "right_audio": "right/train_0031.npy",
+    "mono_audio": "mono/train_0031.npy",
+    "angle": 79.81336061967872,
+    "audio_type": "music",
+    "audio_description": "鋼琴演奏",
+    "direction_description": "右側偏側方大約 80 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到鋼琴演奏，方向在右側偏側方大約 80 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0032",
+    "left_audio": "left/train_0032.npy",
+    "right_audio": "right/train_0032.npy",
+    "mono_audio": "mono/train_0032.npy",
+    "angle": -61.24031403648,
+    "audio_type": "environmental",
+    "audio_description": "鳥叫聲",
+    "direction_description": "左側大約 61 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到鳥叫聲，方向在左側大約 61 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0033",
+    "left_audio": "left/train_0033.npy",
+    "right_audio": "right/train_0033.npy",
+    "mono_audio": "mono/train_0033.npy",
+    "angle": -84.75262080975763,
+    "audio_type": "music",
+    "audio_description": "鋼琴演奏",
+    "direction_description": "左側偏側方大約 85 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "這是鋼琴演奏，來自左側偏側方大約 85 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0034",
+    "left_audio": "left/train_0034.npy",
+    "right_audio": "right/train_0034.npy",
+    "mono_audio": "mono/train_0034.npy",
+    "angle": -58.43975922171319,
+    "audio_type": "environmental",
+    "audio_description": "鳥叫聲",
+    "direction_description": "左側大約 58 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "這是鳥叫聲，來自左側大約 58 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0035",
+    "left_audio": "left/train_0035.npy",
+    "right_audio": "right/train_0035.npy",
+    "mono_audio": "mono/train_0035.npy",
+    "angle": 8.314390795056,
+    "audio_type": "environmental",
+    "audio_description": "鳥叫聲",
+    "direction_description": "右側偏前方大約 8 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是鳥叫聲，聲源位於右側偏前方大約 8 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0036",
+    "left_audio": "left/train_0036.npy",
+    "right_audio": "right/train_0036.npy",
+    "mono_audio": "mono/train_0036.npy",
+    "angle": 71.81787091655607,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "右側大約 72 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到男性說話聲，方向在右側大約 72 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0037",
+    "left_audio": "left/train_0037.npy",
+    "right_audio": "right/train_0037.npy",
+    "mono_audio": "mono/train_0037.npy",
+    "angle": -81.37551165971706,
+    "audio_type": "music",
+    "audio_description": "鋼琴演奏",
+    "direction_description": "左側偏側方大約 81 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到鋼琴演奏，方向在左側偏側方大約 81 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0038",
+    "left_audio": "left/train_0038.npy",
+    "right_audio": "right/train_0038.npy",
+    "mono_audio": "mono/train_0038.npy",
+    "angle": 28.1863270819032,
+    "audio_type": "environmental",
+    "audio_description": "鳥叫聲",
+    "direction_description": "右側前方大約 28 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "這是鳥叫聲，來自右側前方大約 28 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0039",
+    "left_audio": "left/train_0039.npy",
+    "right_audio": "right/train_0039.npy",
+    "mono_audio": "mono/train_0039.npy",
+    "angle": 18.32969137572158,
+    "audio_type": "speech",
+    "audio_description": "對話聲",
+    "direction_description": "右側前方大約 18 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這是對話聲，來自右側前方大約 18 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0040",
+    "left_audio": "left/train_0040.npy",
+    "right_audio": "right/train_0040.npy",
+    "mono_audio": "mono/train_0040.npy",
+    "angle": 0.11125702359487377,
+    "audio_type": "environmental",
+    "audio_description": "雨聲",
+    "direction_description": "正前方",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是雨聲，聲源位於正前方。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0041",
+    "left_audio": "left/train_0041.npy",
+    "right_audio": "right/train_0041.npy",
+    "mono_audio": "mono/train_0041.npy",
+    "angle": -16.030403155326667,
+    "audio_type": "speech",
+    "audio_description": "對話聲",
+    "direction_description": "左側前方大約 16 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是對話聲，聲源位於左側前方大約 16 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0042",
+    "left_audio": "left/train_0042.npy",
+    "right_audio": "right/train_0042.npy",
+    "mono_audio": "mono/train_0042.npy",
+    "angle": -40.987027025136555,
+    "audio_type": "speech",
+    "audio_description": "對話聲",
+    "direction_description": "左側前方大約 41 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是對話聲，聲源位於左側前方大約 41 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0043",
+    "left_audio": "left/train_0043.npy",
+    "right_audio": "right/train_0043.npy",
+    "mono_audio": "mono/train_0043.npy",
+    "angle": -15.284266326168265,
+    "audio_type": "environmental",
+    "audio_description": "水流聲",
+    "direction_description": "左側前方大約 15 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是水流聲。從左右聲道的差異來看，聲源位於左側前方大約 15 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0044",
+    "left_audio": "left/train_0044.npy",
+    "right_audio": "right/train_0044.npy",
+    "mono_audio": "mono/train_0044.npy",
+    "angle": 54.914027146139205,
+    "audio_type": "environmental",
+    "audio_description": "鳥叫聲",
+    "direction_description": "右側大約 55 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是鳥叫聲。從左右聲道的差異來看，聲源位於右側大約 55 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0045",
+    "left_audio": "left/train_0045.npy",
+    "right_audio": "right/train_0045.npy",
+    "mono_audio": "mono/train_0045.npy",
+    "angle": 5.556660647182653,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "右側偏前方大約 6 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "這是男性說話聲，來自右側偏前方大約 6 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0046",
+    "left_audio": "left/train_0046.npy",
+    "right_audio": "right/train_0046.npy",
+    "mono_audio": "mono/train_0046.npy",
+    "angle": -18.457902308414432,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "左側前方大約 18 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是男性說話聲，聲源位於左側前方大約 18 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0047",
+    "left_audio": "left/train_0047.npy",
+    "right_audio": "right/train_0047.npy",
+    "mono_audio": "mono/train_0047.npy",
+    "angle": 51.40715786693178,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "右側大約 51 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是男性說話聲，聲源位於右側大約 51 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0048",
+    "left_audio": "left/train_0048.npy",
+    "right_audio": "right/train_0048.npy",
+    "mono_audio": "mono/train_0048.npy",
+    "angle": 51.5366495086802,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "右側大約 52 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這是男性說話聲，來自右側大約 52 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0049",
+    "left_audio": "left/train_0049.npy",
+    "right_audio": "right/train_0049.npy",
+    "mono_audio": "mono/train_0049.npy",
+    "angle": 35.60100901323571,
+    "audio_type": "music",
+    "audio_description": "鋼琴演奏",
+    "direction_description": "右側前方大約 36 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是鋼琴演奏。從左右聲道的差異來看，聲源位於右側前方大約 36 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0050",
+    "left_audio": "left/train_0050.npy",
+    "right_audio": "right/train_0050.npy",
+    "mono_audio": "mono/train_0050.npy",
+    "angle": 36.403176113666504,
+    "audio_type": "speech",
+    "audio_description": "對話聲",
+    "direction_description": "右側前方大約 36 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是對話聲。從左右聲道的差異來看，聲源位於右側前方大約 36 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0051",
+    "left_audio": "left/train_0051.npy",
+    "right_audio": "right/train_0051.npy",
+    "mono_audio": "mono/train_0051.npy",
+    "angle": 87.49948696326362,
+    "audio_type": "speech",
+    "audio_description": "女性說話聲",
+    "direction_description": "右側偏側方大約 87 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是女性說話聲，聲源位於右側偏側方大約 87 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0052",
+    "left_audio": "left/train_0052.npy",
+    "right_audio": "right/train_0052.npy",
+    "mono_audio": "mono/train_0052.npy",
+    "angle": -84.03648274720655,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "左側偏側方大約 84 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到男性說話聲，方向在左側偏側方大約 84 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0053",
+    "left_audio": "left/train_0053.npy",
+    "right_audio": "right/train_0053.npy",
+    "mono_audio": "mono/train_0053.npy",
+    "angle": -8.210014498886025,
+    "audio_type": "music",
+    "audio_description": "吉他彈奏",
+    "direction_description": "左側偏前方大約 8 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "這是吉他彈奏，來自左側偏前方大約 8 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0054",
+    "left_audio": "left/train_0054.npy",
+    "right_audio": "right/train_0054.npy",
+    "mono_audio": "mono/train_0054.npy",
+    "angle": -9.11240748107548,
+    "audio_type": "environmental",
+    "audio_description": "風聲",
+    "direction_description": "左側偏前方大約 9 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是風聲。從左右聲道的差異來看，聲源位於左側偏前方大約 9 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0055",
+    "left_audio": "left/train_0055.npy",
+    "right_audio": "right/train_0055.npy",
+    "mono_audio": "mono/train_0055.npy",
+    "angle": 23.840517853967157,
+    "audio_type": "environmental",
+    "audio_description": "鳥叫聲",
+    "direction_description": "右側前方大約 24 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是鳥叫聲，聲源位於右側前方大約 24 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0056",
+    "left_audio": "left/train_0056.npy",
+    "right_audio": "right/train_0056.npy",
+    "mono_audio": "mono/train_0056.npy",
+    "angle": -17.963181335538096,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "左側前方大約 18 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是男性說話聲，聲源位於左側前方大約 18 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0057",
+    "left_audio": "left/train_0057.npy",
+    "right_audio": "right/train_0057.npy",
+    "mono_audio": "mono/train_0057.npy",
+    "angle": -49.98403687766596,
+    "audio_type": "music",
+    "audio_description": "鋼琴演奏",
+    "direction_description": "左側大約 50 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是鋼琴演奏。從左右聲道的差異來看，聲源位於左側大約 50 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0058",
+    "left_audio": "left/train_0058.npy",
+    "right_audio": "right/train_0058.npy",
+    "mono_audio": "mono/train_0058.npy",
+    "angle": -83.30482155682833,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "左側偏側方大約 83 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "這是男性說話聲，來自左側偏側方大約 83 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0059",
+    "left_audio": "left/train_0059.npy",
+    "right_audio": "right/train_0059.npy",
+    "mono_audio": "mono/train_0059.npy",
+    "angle": -17.436605340754866,
+    "audio_type": "speech",
+    "audio_description": "對話聲",
+    "direction_description": "左側前方大約 17 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這是對話聲，來自左側前方大約 17 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0060",
+    "left_audio": "left/train_0060.npy",
+    "right_audio": "right/train_0060.npy",
+    "mono_audio": "mono/train_0060.npy",
+    "angle": 38.974533582127805,
+    "audio_type": "environmental",
+    "audio_description": "水流聲",
+    "direction_description": "右側前方大約 39 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是水流聲。從左右聲道的差異來看，聲源位於右側前方大約 39 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0061",
+    "left_audio": "left/train_0061.npy",
+    "right_audio": "right/train_0061.npy",
+    "mono_audio": "mono/train_0061.npy",
+    "angle": 69.17203894456063,
+    "audio_type": "music",
+    "audio_description": "吉他彈奏",
+    "direction_description": "右側大約 69 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是吉他彈奏。從左右聲道的差異來看，聲源位於右側大約 69 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0062",
+    "left_audio": "left/train_0062.npy",
+    "right_audio": "right/train_0062.npy",
+    "mono_audio": "mono/train_0062.npy",
+    "angle": -84.02909200728769,
+    "audio_type": "environmental",
+    "audio_description": "風聲",
+    "direction_description": "左側偏側方大約 84 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是風聲。從左右聲道的差異來看，聲源位於左側偏側方大約 84 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0063",
+    "left_audio": "left/train_0063.npy",
+    "right_audio": "right/train_0063.npy",
+    "mono_audio": "mono/train_0063.npy",
+    "angle": 19.602760816028535,
+    "audio_type": "speech",
+    "audio_description": "女性說話聲",
+    "direction_description": "右側前方大約 20 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是女性說話聲。從左右聲道的差異來看，聲源位於右側前方大約 20 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0064",
+    "left_audio": "left/train_0064.npy",
+    "right_audio": "right/train_0064.npy",
+    "mono_audio": "mono/train_0064.npy",
+    "angle": 12.751162919371197,
+    "audio_type": "speech",
+    "audio_description": "女性說話聲",
+    "direction_description": "右側偏前方大約 13 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是女性說話聲，聲源位於右側偏前方大約 13 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0065",
+    "left_audio": "left/train_0065.npy",
+    "right_audio": "right/train_0065.npy",
+    "mono_audio": "mono/train_0065.npy",
+    "angle": 49.4551491826025,
+    "audio_type": "speech",
+    "audio_description": "女性說話聲",
+    "direction_description": "右側大約 49 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "這是女性說話聲，來自右側大約 49 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0066",
+    "left_audio": "left/train_0066.npy",
+    "right_audio": "right/train_0066.npy",
+    "mono_audio": "mono/train_0066.npy",
+    "angle": -33.71137319669917,
+    "audio_type": "music",
+    "audio_description": "音樂播放",
+    "direction_description": "左側前方大約 34 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到音樂播放，方向在左側前方大約 34 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0067",
+    "left_audio": "left/train_0067.npy",
+    "right_audio": "right/train_0067.npy",
+    "mono_audio": "mono/train_0067.npy",
+    "angle": 37.59865218961221,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "右側前方大約 38 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是男性說話聲，聲源位於右側前方大約 38 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0068",
+    "left_audio": "left/train_0068.npy",
+    "right_audio": "right/train_0068.npy",
+    "mono_audio": "mono/train_0068.npy",
+    "angle": 81.26102630159053,
+    "audio_type": "speech",
+    "audio_description": "對話聲",
+    "direction_description": "右側偏側方大約 81 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是對話聲，聲源位於右側偏側方大約 81 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0069",
+    "left_audio": "left/train_0069.npy",
+    "right_audio": "right/train_0069.npy",
+    "mono_audio": "mono/train_0069.npy",
+    "angle": -41.45198736901898,
+    "audio_type": "speech",
+    "audio_description": "對話聲",
+    "direction_description": "左側前方大約 41 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是對話聲，聲源位於左側前方大約 41 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0070",
+    "left_audio": "left/train_0070.npy",
+    "right_audio": "right/train_0070.npy",
+    "mono_audio": "mono/train_0070.npy",
+    "angle": -71.2163791408492,
+    "audio_type": "music",
+    "audio_description": "鋼琴演奏",
+    "direction_description": "左側大約 71 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "這是鋼琴演奏，來自左側大約 71 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0071",
+    "left_audio": "left/train_0071.npy",
+    "right_audio": "right/train_0071.npy",
+    "mono_audio": "mono/train_0071.npy",
+    "angle": -77.00509036897672,
+    "audio_type": "music",
+    "audio_description": "鋼琴演奏",
+    "direction_description": "左側偏側方大約 77 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到鋼琴演奏，方向在左側偏側方大約 77 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0072",
+    "left_audio": "left/train_0072.npy",
+    "right_audio": "right/train_0072.npy",
+    "mono_audio": "mono/train_0072.npy",
+    "angle": 16.25390878213601,
+    "audio_type": "environmental",
+    "audio_description": "鳥叫聲",
+    "direction_description": "右側前方大約 16 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到鳥叫聲，方向在右側前方大約 16 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0073",
+    "left_audio": "left/train_0073.npy",
+    "right_audio": "right/train_0073.npy",
+    "mono_audio": "mono/train_0073.npy",
+    "angle": -20.25294200554059,
+    "audio_type": "speech",
+    "audio_description": "女性說話聲",
+    "direction_description": "左側前方大約 20 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是女性說話聲，聲源位於左側前方大約 20 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0074",
+    "left_audio": "left/train_0074.npy",
+    "right_audio": "right/train_0074.npy",
+    "mono_audio": "mono/train_0074.npy",
+    "angle": 79.50038462437087,
+    "audio_type": "environmental",
+    "audio_description": "鳥叫聲",
+    "direction_description": "右側偏側方大約 80 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到鳥叫聲，方向在右側偏側方大約 80 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0075",
+    "left_audio": "left/train_0075.npy",
+    "right_audio": "right/train_0075.npy",
+    "mono_audio": "mono/train_0075.npy",
+    "angle": 16.382414540120337,
+    "audio_type": "environmental",
+    "audio_description": "風聲",
+    "direction_description": "右側前方大約 16 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是風聲。從左右聲道的差異來看，聲源位於右側前方大約 16 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0076",
+    "left_audio": "left/train_0076.npy",
+    "right_audio": "right/train_0076.npy",
+    "mono_audio": "mono/train_0076.npy",
+    "angle": 44.16845199550838,
+    "audio_type": "music",
+    "audio_description": "音樂播放",
+    "direction_description": "右側前方大約 44 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這是音樂播放，來自右側前方大約 44 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0077",
+    "left_audio": "left/train_0077.npy",
+    "right_audio": "right/train_0077.npy",
+    "mono_audio": "mono/train_0077.npy",
+    "angle": -12.55810923714715,
+    "audio_type": "music",
+    "audio_description": "鋼琴演奏",
+    "direction_description": "左側偏前方大約 13 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是鋼琴演奏，聲源位於左側偏前方大約 13 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0078",
+    "left_audio": "left/train_0078.npy",
+    "right_audio": "right/train_0078.npy",
+    "mono_audio": "mono/train_0078.npy",
+    "angle": 14.826544724703012,
+    "audio_type": "environmental",
+    "audio_description": "鳥叫聲",
+    "direction_description": "右側偏前方大約 15 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是鳥叫聲，聲源位於右側偏前方大約 15 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0079",
+    "left_audio": "left/train_0079.npy",
+    "right_audio": "right/train_0079.npy",
+    "mono_audio": "mono/train_0079.npy",
+    "angle": -79.9672898110278,
+    "audio_type": "speech",
+    "audio_description": "女性說話聲",
+    "direction_description": "左側偏側方大約 80 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是女性說話聲。從左右聲道的差異來看，聲源位於左側偏側方大約 80 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0080",
+    "left_audio": "left/train_0080.npy",
+    "right_audio": "right/train_0080.npy",
+    "mono_audio": "mono/train_0080.npy",
+    "angle": -44.418622138077836,
+    "audio_type": "environmental",
+    "audio_description": "鳥叫聲",
+    "direction_description": "左側前方大約 44 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到鳥叫聲，方向在左側前方大約 44 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0081",
+    "left_audio": "left/train_0081.npy",
+    "right_audio": "right/train_0081.npy",
+    "mono_audio": "mono/train_0081.npy",
+    "angle": -31.165831949155596,
+    "audio_type": "environmental",
+    "audio_description": "風聲",
+    "direction_description": "左側前方大約 31 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到風聲，方向在左側前方大約 31 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0082",
+    "left_audio": "left/train_0082.npy",
+    "right_audio": "right/train_0082.npy",
+    "mono_audio": "mono/train_0082.npy",
+    "angle": -28.485882419874414,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "左側前方大約 28 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到男性說話聲，方向在左側前方大約 28 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0083",
+    "left_audio": "left/train_0083.npy",
+    "right_audio": "right/train_0083.npy",
+    "mono_audio": "mono/train_0083.npy",
+    "angle": -34.204158097461615,
+    "audio_type": "speech",
+    "audio_description": "對話聲",
+    "direction_description": "左側前方大約 34 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到對話聲，方向在左側前方大約 34 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0084",
+    "left_audio": "left/train_0084.npy",
+    "right_audio": "right/train_0084.npy",
+    "mono_audio": "mono/train_0084.npy",
+    "angle": 87.82944461548806,
+    "audio_type": "speech",
+    "audio_description": "對話聲",
+    "direction_description": "右側偏側方大約 88 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是對話聲。從左右聲道的差異來看，聲源位於右側偏側方大約 88 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0085",
+    "left_audio": "left/train_0085.npy",
+    "right_audio": "right/train_0085.npy",
+    "mono_audio": "mono/train_0085.npy",
+    "angle": 55.1642871754365,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "右側大約 55 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是男性說話聲。從左右聲道的差異來看，聲源位於右側大約 55 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0086",
+    "left_audio": "left/train_0086.npy",
+    "right_audio": "right/train_0086.npy",
+    "mono_audio": "mono/train_0086.npy",
+    "angle": -52.945960006376346,
+    "audio_type": "environmental",
+    "audio_description": "鳥叫聲",
+    "direction_description": "左側大約 53 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這是鳥叫聲，來自左側大約 53 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0087",
+    "left_audio": "left/train_0087.npy",
+    "right_audio": "right/train_0087.npy",
+    "mono_audio": "mono/train_0087.npy",
+    "angle": -51.90176214660845,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "左側大約 52 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是男性說話聲，聲源位於左側大約 52 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0088",
+    "left_audio": "left/train_0088.npy",
+    "right_audio": "right/train_0088.npy",
+    "mono_audio": "mono/train_0088.npy",
+    "angle": 6.152399282782568,
+    "audio_type": "environmental",
+    "audio_description": "雨聲",
+    "direction_description": "右側偏前方大約 6 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "這是雨聲，來自右側偏前方大約 6 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0089",
+    "left_audio": "left/train_0089.npy",
+    "right_audio": "right/train_0089.npy",
+    "mono_audio": "mono/train_0089.npy",
+    "angle": -47.587153817664785,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "左側大約 48 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "這是男性說話聲，來自左側大約 48 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0090",
+    "left_audio": "left/train_0090.npy",
+    "right_audio": "right/train_0090.npy",
+    "mono_audio": "mono/train_0090.npy",
+    "angle": 74.9092003879287,
+    "audio_type": "environmental",
+    "audio_description": "鳥叫聲",
+    "direction_description": "右側大約 75 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是鳥叫聲。從左右聲道的差異來看，聲源位於右側大約 75 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0091",
+    "left_audio": "left/train_0091.npy",
+    "right_audio": "right/train_0091.npy",
+    "mono_audio": "mono/train_0091.npy",
+    "angle": -23.716424619691864,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "左側前方大約 24 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到男性說話聲，方向在左側前方大約 24 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0092",
+    "left_audio": "left/train_0092.npy",
+    "right_audio": "right/train_0092.npy",
+    "mono_audio": "mono/train_0092.npy",
+    "angle": 47.772603740320164,
+    "audio_type": "environmental",
+    "audio_description": "風聲",
+    "direction_description": "右側大約 48 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是風聲，聲源位於右側大約 48 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0093",
+    "left_audio": "left/train_0093.npy",
+    "right_audio": "right/train_0093.npy",
+    "mono_audio": "mono/train_0093.npy",
+    "angle": -45.21604497549862,
+    "audio_type": "environmental",
+    "audio_description": "水流聲",
+    "direction_description": "左側大約 45 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請描述這段音頻的內容以及聲源的方向位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "我聽到水流聲，方向在左側大約 45 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0094",
+    "left_audio": "left/train_0094.npy",
+    "right_audio": "right/train_0094.npy",
+    "mono_audio": "mono/train_0094.npy",
+    "angle": -51.529156772906745,
+    "audio_type": "environmental",
+    "audio_description": "雨聲",
+    "direction_description": "左側大約 52 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是雨聲，聲源位於左側大約 52 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0095",
+    "left_audio": "left/train_0095.npy",
+    "right_audio": "right/train_0095.npy",
+    "mono_audio": "mono/train_0095.npy",
+    "angle": -1.8520908410529984,
+    "audio_type": "environmental",
+    "audio_description": "水流聲",
+    "direction_description": "正前方",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是水流聲。從左右聲道的差異來看，聲源位於正前方。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0096",
+    "left_audio": "left/train_0096.npy",
+    "right_audio": "right/train_0096.npy",
+    "mono_audio": "mono/train_0096.npy",
+    "angle": -31.31981509929694,
+    "audio_type": "speech",
+    "audio_description": "男性說話聲",
+    "direction_description": "左側前方大約 31 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "這段音頻是男性說話聲。從左右聲道的差異來看，聲源位於左側前方大約 31 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0097",
+    "left_audio": "left/train_0097.npy",
+    "right_audio": "right/train_0097.npy",
+    "mono_audio": "mono/train_0097.npy",
+    "angle": 70.46824605379857,
+    "audio_type": "environmental",
+    "audio_description": "水流聲",
+    "direction_description": "右側大約 70 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "分析這段音頻，包括內容和空間位置。"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是水流聲，聲源位於右側大約 70 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0098",
+    "left_audio": "left/train_0098.npy",
+    "right_audio": "right/train_0098.npy",
+    "mono_audio": "mono/train_0098.npy",
+    "angle": 22.87035777742389,
+    "audio_type": "environmental",
+    "audio_description": "風聲",
+    "direction_description": "右側前方大約 23 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "請識別音頻內容並判斷聲源方向。"
+      },
+      {
+        "role": "assistant",
+        "content": "這是風聲，來自右側前方大約 23 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  {
+    "id": "train_0099",
+    "left_audio": "left/train_0099.npy",
+    "right_audio": "right/train_0099.npy",
+    "mono_audio": "mono/train_0099.npy",
+    "angle": -29.28278358683057,
+    "audio_type": "environmental",
+    "audio_description": "雨聲",
+    "direction_description": "左側前方大約 29 度",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "這個聲音是什麼？它來自哪個方向？"
+      },
+      {
+        "role": "assistant",
+        "content": "音頻內容是雨聲，聲源位於左側前方大約 29 度。"
+      }
+    ],
+    "duration": 3.0,
+    "sample_rate": 16000
+  }
+]
